@@ -1,0 +1,130 @@
+<html>
+ <head>
+  <title>My first site</title>
+  <style type="text/css">
+   body, h1,h2, h3, header, footer, div {
+	margin: 0;
+   }    
+    header { 
+	background-color: white;
+	height: 150px;
+	width: 100%;
+    }
+    footer { 
+	background-color: navy;
+	height: 100px;
+	width: 100%;
+    }
+    div#left_sidebar{
+	position: absolute;
+	background-color: #E0FFFF;
+	height: 1000px;
+	width: 25%;	
+    }
+    div#content{
+	position: relative;
+	left: 25%;
+	background-color: #ddd;
+	height: 1000px;
+	width: 75%;
+	margin-left: -30px;
+	padding-left: 15px;
+	padding-right: 15px;
+    }
+	div#content h1{
+		padding-top: 15px;
+	}
+	div#content h2{
+		color: #333333;
+		letter-spacing: 1.5;
+	}
+	div#content img{
+		width: 700px;
+	}
+	div#content p{
+		text-align: justify;
+		font-family: Verdana;
+		line-height: 1.5;
+		font-size: 16px;
+	}
+	img#logo {
+		padding-top: 35px;
+		padding-left: 15px;
+		position: absolute;
+	}
+	img#books {
+		position: relative;
+		left: 870px;
+	}
+	h3#menyu_p {
+		padding-left: 15px;
+		padding-top: 25px;
+		color: #cc0000;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	div#left_sidebar a.menu {
+		display: block;
+		padding-top: 10px;
+		padding-left: 15px;
+	}
+	img.icons {
+		width: 50px;
+		margin-left: 15px;
+	}
+	footer div.rel {
+		position: relative;
+		width: 100%;
+	}
+	footer div.abs {
+		position: absolute;
+		width: 400px;
+		right: 0px;
+		top: 20px;
+	}
+	p.kursiv {
+		font-style: italic;
+	}
+  </style>
+ </head>
+ <body>
+  <header>
+	<img id="logo" src="logo.png">
+	<img id="books" src="books.png">
+  </header>
+  <div id="left_sidebar">
+	<h3 id="menyu_p">Sayt menyusi</h3>
+	<a class="menu" href="index.html">Asosiy</a>
+	<a class="menu" href="news.html">Yangiliklar</a>
+	<a class="menu" href="galery.html">Galereya</a>
+	<a class="menu" href="about.html">Biz haqimizda</a>
+	<a class="menu" href="contact.html">Biz bilan bog'lanish</a>
+  </div>
+  <div id="content">
+	<center><h1>Asosiy</h1></center>
+<h2>Тошкентдаги Инҳа университетида магистратура босқичи очилади</h2>
+<hr>
+<img src="inha.jpg">
+	
+<p>Ўзбекистон ахборот технологиялари ва коммуникацияларини ривожлантириш вазири в.б. <b>Шерзод Шерматов</b>, олий ва ўрта махсус таълим вазири <b>Ином Мажидов</b> ва Тошкент шаҳридаги Инҳа университети ректори <b>Сарвар Бабаходжаев</b> таркибидаги делегация Корея Республикасидаги Инҳа университети президенти Сунья Чой хоним билан музокаралар ўтказди.</p>
+
+<p class="kursiv">Учрашув давомида томонлар Тошкент шаҳридаги Инҳа университети таълим дастурларини кенгайтириш масаласини кўриб чиқишди. Хусусан, бакалавриат таълим йўналишларини янада кенгайтириш зарурати таъкидлаб ўтилди.</p>
+
+<p>Бундан ташқари, университетда магистратура таълим йўналишларини очиш масаласи кун тартибидан ўрин олди.</p>
+
+<p>Шунингдек, Тошкент шаҳридаги Инҳа университетининг айни пайтда Корея Республикасида таълим олаётган охирги босқич талабалари билан учрашув ўтказилди.</p>
+
+<p>Учрашув якунларига кўра, икки университет вакиллари Тошкент шаҳридаги Инҳа университетида магистратура дастурини очиш ҳамда университетнинг уч нафар талабаларига Жанубий Кореяда таълим олиш учун грант тақдим этиш юзасидан баённома имзолашди.</p>
+  </div>
+  <footer>
+	<div class="rel">
+		<div class="abs">
+			<a target="_blank" href="http://facebook.com"><img class="icons" src="facebook.png"></a>	
+			<a target="_blank" href="http://instagram.com"><img class="icons" src="instagram.png"></a>	
+			<a target="_blank" href="http://telegram.org"><img class="icons" src="telegram.png"></a>	
+			<a target="_blank" href="http://youtube.com"><img class="icons" src="youtube.png"></a>	
+		</div>
+	</div>
+		
+ </body>
+</html>
